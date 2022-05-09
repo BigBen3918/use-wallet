@@ -1,0 +1,7 @@
+node_modules/
+yarn-error.log
+.yarn/cache
+.cache/
+.idea/
+.vscode/
+.DS_Store
