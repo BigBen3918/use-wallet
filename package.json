@@ -1,7 +1,7 @@
 {
-  "name": "use-wallet",
-  "version": "0.13.5",
-  "author": "Aragon Association <legal@aragon.org>",
+  "name": "wallet-connector",
+  "version": "0.1.0",
+  "author": "BigBen3918",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
