@@ -1,7 +1,7 @@
 {
-  "name": "wallet-connector",
+  "name": "use-wallet2",
   "description": "use-wallet 2.0",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "bigben3918",
   "license": "MIT",
   "main": "dist/cjs/index.js",
@@ -63,5 +63,9 @@
   "peerDependencies": {
     "react": "^16.13.1 || ^17",
     "react-dom": "^16.13.1 || ^17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigBen3918/use-wallet.git"
   }
 }

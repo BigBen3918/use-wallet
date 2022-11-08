@@ -1,6 +1,6 @@
-#  Wallet-Connector()
+#  useWallet()
 
-[<img src="https://img.shields.io/npm/v/wallet-connector" alt="" />](https://www.npmjs.com/package/wallet-connector)
+[<img src="https://img.shields.io/npm/v/use-wallet2" alt="" />](https://www.npmjs.com/package/use-wallet2)
 
 useWallet() allows dapp users to connect to the provider of their choice in a way that is as straightforward as possible. It provides a common data structure for any connected account, no matter what provider has been chosen by the user. It aims to provide some features that are often reimplemented by dapp developers: connecting to a wallet, keeping track of transactions
 
@@ -33,7 +33,7 @@ Oh yes:
 Add it to your project:
 
 ```console
-yarn add wallet-connector
+yarn add use-wallet2
 ```
 
 Use it in your React app:
@@ -42,7 +42,7 @@ Use it in your React app:
 // App.js
 
 import React from 'react'
-import { useWallet, UseWalletProvider } from 'wallet-connector'
+import { useWallet, UseWalletProvider } from 'use-wallet2'
 
 function App() {
   const wallet = useWallet()
