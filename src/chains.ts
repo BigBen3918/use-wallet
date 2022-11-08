@@ -7,6 +7,12 @@ const ETH: Currency = {
   decimals: 18,
 }
 
+const ETHW: Currency = {
+  name: 'EtherPow',
+  symbol: "ETHW",
+  decimals: 18
+}
+
 const MATIC: Currency = {
   name: 'Matic Token',
   symbol: 'MATIC',
@@ -470,6 +476,17 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       testnet: false,
     },
   ],
+  [
+    10001, {
+      id: 10001,
+      nativeCurrency: ETHW,
+      type: 'main',
+      fullName: 'ETHW Mainnet',
+      shortName: 'ETHW',
+      explorerUrl: `https://mainnet.ethwscan.com/`,
+      testnet: false,
+    }
+  ]
 ])
 
 /**
