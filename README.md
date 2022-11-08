@@ -1,8 +1,8 @@
-# 👛 useWallet()
+#  Wallet-Connector()
 
-[<img src="https://img.shields.io/npm/v/use-wallet" alt="" />](https://www.npmjs.com/package/use-wallet) [<img src="https://img.shields.io/bundlephobia/minzip/use-wallet" alt="" />](https://bundlephobia.com/result?p=use-wallet)
+[<img src="https://img.shields.io/npm/v/wallet-connector" alt="" />](https://www.npmjs.com/package/wallet-connector)
 
-useWallet() allows dapp users to connect to the provider of their choice in a way that is as straightforward as possible. It provides a common data structure for any connected account, no matter what provider has been chosen by the user. It aims to provide some features that are often reimplemented by dapp developers: connecting to a wallet, keeping track of transactions, and more (submit a [issue](https://github.com/aragon/use-wallet/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or PR!).
+useWallet() allows dapp users to connect to the provider of their choice in a way that is as straightforward as possible. It provides a common data structure for any connected account, no matter what provider has been chosen by the user. It aims to provide some features that are often reimplemented by dapp developers: connecting to a wallet, keeping track of transactions
 
 ## Features
 
@@ -10,6 +10,7 @@ useWallet() allows dapp users to connect to the provider of their choice in a wa
 - Completely library agnostic (use Web3.js, ethers.js, …).
 - Provides the current balance.
 - Keeps track of the recent transactions (coming soon).
+- Can add new chain
 
 ### Opinionated?
 
@@ -27,21 +28,12 @@ Oh yes:
 - A low-level, fully configurable connection system for Ethereum providers (see [web3-react](https://github.com/NoahZinsmeister/web3-react) if you are after that).
 - An general library to interact with Ethereum (see ethers.js, Web3.js, etc.).
 
-### Used by
-
-- [Aragon client](https://github.com/aragon/aragon)
-- [Aragon’s Court Dashboard](https://github.com/aragon/court-dashboard)
-- [Aragon Voice](https://github.com/vocdoni/bridge-ui/)
-- [Wallets Chat](https://app.wallets.chat/)
-
-- _(Your project!)_
-
 ## Usage
 
 Add it to your project:
 
 ```console
-yarn add use-wallet
+yarn add wallet-connector
 ```
 
 Use it in your React app:
@@ -50,7 +42,7 @@ Use it in your React app:
 // App.js
 
 import React from 'react'
-import { useWallet, UseWalletProvider } from 'use-wallet'
+import { useWallet, UseWalletProvider } from 'wallet-connector'
 
 function App() {
   const wallet = useWallet()
@@ -156,7 +148,3 @@ It returns an object representing the connected account (“wallet”), containi
 
 To run the examples, switch to the respective directories. Then, simply run `yarn install`
 to install, and `yarn start` to run the examples on `localhost:1234`.
-
-## Special thanks
-
-useWallet() is a built on [web3-react](https://github.com/NoahZinsmeister/web3-react) and its connectors, which are doing all the hard work internally.
