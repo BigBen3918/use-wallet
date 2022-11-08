@@ -1,4 +1,4 @@
-#  useWallet()
+#  useWallet2()
 
 [<img src="https://img.shields.io/npm/v/use-wallet2" alt="" />](https://www.npmjs.com/package/use-wallet2)
 
