@@ -102,30 +102,6 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
     },
   ],
   [
-    3,
-    {
-      id: 3,
-      nativeCurrency: ETH,
-      type: 'ropsten',
-      fullName: 'Ropsten Testnet',
-      shortName: 'Ropsten',
-      explorerUrl: `https://ropsten.etherscan.io`,
-      testnet: true,
-    },
-  ],
-  [
-    4,
-    {
-      id: 4,
-      nativeCurrency: ETH,
-      type: 'rinkeby',
-      fullName: 'Rinkeby Testnet',
-      shortName: 'Rinkeby',
-      explorerUrl: `https://rinkeby.etherscan.io`,
-      testnet: true,
-    },
-  ],
-  [
     5,
     {
       id: 5,
@@ -134,18 +110,6 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       fullName: 'Goerli Testnet',
       shortName: 'Goerli',
       explorerUrl: `https://goerli.etherscan.io`,
-      testnet: true,
-    },
-  ],
-  [
-    42,
-    {
-      id: 42,
-      nativeCurrency: ETH,
-      type: 'kovan',
-      fullName: 'Kovan Testnet',
-      shortName: 'Kovan',
-      explorerUrl: `https://kovan.etherscan.io`,
       testnet: true,
     },
   ],
@@ -313,6 +277,18 @@ const CHAIN_INFORMATION = new Map<number, ChainInformation | ChainType>([
       fullName: 'ThunderCore Testnet',
       shortName: 'ThunderCore Testnet',
       explorerUrl: `https://scan-testnet.thundercore.com/`,
+      testnet: true,
+    },
+  ],
+  [
+    421613,
+    {
+      id: 421613,
+      nativeCurrency: ETH,
+      type: 'arbitrumTest',
+      fullName: 'Arbitrum Goerli',
+      shortName: 'Arbitrum Goerli',
+      explorerUrl: 'https://goerli-rollup-explorer.arbitrum.io',
       testnet: true,
     },
   ],
